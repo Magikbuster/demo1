@@ -83,6 +83,7 @@ Math Operator
 % : Remainder operator
 ** : power operator
 == : Equal operator
+!= : Not Equal too operator
 """
 
 print ("_"*50)
@@ -125,6 +126,60 @@ print ("Div_1_slash result:", A//B)
 
 print ("#"*50)
 # Power operator
-print("Power of 2:", 2**2) #2*2
-print ("Cube of 2:", 2**3) #2*2*2
-print ("Result is:", 2**4) #2*2*2*2
+print("Power of 2:", 2**2) # 2*2
+print ("Cube of 2:", 2**3) # 2*2*2
+print ("Result is:", 2**4) # 2*2*2*2
+
+print ("#"*50)
+# % : Remainder operator
+v11 = 10
+v12 = 4
+print ("Remainder value:", v11 % v12)
+print ("Remainder value:", v11 % 3)
+print ("Remainder value:", 11 % 4)
+
+# FInd out odd and even value
+X = 30
+print("Even Value: ", X % 2 == 0) # True
+print("Odd Value: ", X % 4 == 0) # False
+
+print ("#"*50)
+# % : Remainder operator
+Z = 10
+Y = 14
+print("Equal:", Z == Y) # True
+print("Equal:", Z != Y) # False
+
+print("@"*50)
+# 1. how to create math formula for (A+B)^2 = A^2 + 2AB +B^2
+A = 2
+B = 3
+LHS = (A+B)**2
+RHS = A**2 + 2*A*B + B**2
+print("LHS: ", LHS)
+print("RHS: ", RHS)
+
+# 2. (A-B)^2 = A^2 -2AB + B^2
+A = 4
+B = 2
+LHS = (A-B)**2
+RHS = A**2 - 2*A*B + B**2
+print("LHS: ", LHS)
+print("RHS: ", RHS)
+
+# 3. (A+B+C)^2 = A^2 + B^2 + C^2 + 2(AB+BC+CA)
+# 4. Area of circle: Area = PI*R^2 (PI = 3.13 & R = 5)
+# 5. Simple Interest Calculation
+"""
+si = (p+r+t)/100
+p = principal amount
+r = rate of interest
+t = time
+"""
+# 6. Compound Interest
+"""
+ci = ((p*(1+i)^n) - p)
+p = principal amount
+i = interest rate
+n = time period
+"""
