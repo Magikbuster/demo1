@@ -43,5 +43,3 @@ ci2= (((1+i)**n*p) - p)
 print("Compound Interest: ", ci)
 print("Compound Interest: ", ci1)
 print("Compound Interest: ", ci2)
-
-print("done")
