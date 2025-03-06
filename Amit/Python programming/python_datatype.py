@@ -31,10 +31,10 @@ print(type(num1))
 # int()
 
 num2 = 646487894878716878178978978979846841688679871879
-print("num2 data type:", type(num2)) # <class 'int'>
+print("num2 data type:", type(num2))  # <class 'int'>
 print(num2)
 
-num2 = 100 # replaced by new value for previous value.
+num2 = 100  # replaced by new value for previous value.
 print(num2)
 
 num3 = 0
@@ -51,7 +51,7 @@ print(num4)
    Note: Positive and negative number with decimal can be considered as float only.           
 """
 var_a = 6464878948787168781.78978978979846841688679871879
-print("num2 data type:", type(var_a)) # <class 'float'>
+print("num2 data type:", type(var_a))  # <class 'float'>
 print(var_a)
 
 var_b = 66.6689
@@ -66,8 +66,8 @@ print('-'*50)
 -> Complex number is the immutable data type.
 """
 var_c = 50 + 40j
-print("Imaginary Value :", var_c.imag) # Left value is considered as imaginary value
-print("Real Value :", var_c.real) # Left value is considered as real value
+print("Imaginary Value :", var_c.imag)  # Left value is considered as imaginary value
+print("Real Value :", var_c.real)  # Left value is considered as real value
 
 var_d = 5 + 10j
 var_e = 7 + 15j
@@ -78,7 +78,7 @@ var_g = 10 * 10j
 print("Addition of complex number:", var_g, type(var_g), var_g.imag, var_g.real)
 
 result = complex(70, 80)
-print(result) # (70+80j)
+print(result)  # (70+80j)
 
 ######################################
 print("$"*50)
