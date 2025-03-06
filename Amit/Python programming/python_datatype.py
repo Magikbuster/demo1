@@ -93,7 +93,7 @@ Note : - string can be use with Double quotes, single quotes or three single or 
 str_a = "Hello"
 str_b = 'Python'
 str_c = '''I am working on string data type'''
-str_c = """I am working on string data type"""
+str_d = """I am working on string data type"""
 
 print(str_a, type(str_a))
 print(str_b, type(str_b))
